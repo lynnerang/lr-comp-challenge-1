@@ -384,5 +384,6 @@ i.fa-caret-down {
   li a {
     font-size: 22px;
     padding: 2px 0px 30px 30px;
+    display: block;
   }
 }
