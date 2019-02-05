@@ -1,0 +1,388 @@
+body {
+  background-color: #ededed;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  box-sizing: border-box;
+  padding: 0px 25px;
+  background-color: #333333;
+  height: 160px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+main {
+    padding: 160px 15px 0px 15px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+h1 {
+  color: #444444;
+  font-size: 45px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+h2 {
+  color: #444444;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0px 0px 5px 0px;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*Top row of header with username & dropdown*/
+.profile-container {
+height: 60px;
+padding-right: 5px;
+text-align: right;
+}
+
+.profile-container a {
+  line-height: 60px;
+  text-align: right;
+  vertical-align: middle;
+  color: #2bb5fe;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0;
+}
+
+.profile-container img {
+  display: inline-block;
+  padding-bottom: 3px;
+  padding-right: 8px;
+  vertical-align: middle;  
+  width: 25px;
+}
+
+.profile:hover {
+  color: white;
+}
+
+
+/*Area with navigation items and company logo*/
+nav {
+  align-items: flex-end;
+  display: flex;
+  padding-top: 15px;
+}
+
+ul {
+  align-items: flex-end;
+  display: flex;
+  flex: 2;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: #888888;
+  font-size: 18px;
+  margin: 0;
+  padding: 0px 55px 0px 0px;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  color: #2bb5fe;
+}
+
+li a img {
+  height: 20px;
+  padding-bottom: 3px;
+  padding-right: 12px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.active {
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-container img {
+  height: 40px;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  width: 150px;
+}
+
+
+/*Font awesome icons*/
+i.fa-cog, i.fa-bars {
+  display: none;
+}
+
+i.fa-caret-down {
+  display: inline;
+  font-size: 20px;
+  padding-left: 6px;
+  padding-right: 10px;
+}
+
+
+/*General styling for cards on main area of page*/
+.card {
+  background-color: white;
+  filter: drop-shadow(0 0 3px #878787);
+  height: 460px;
+  margin: 0px 15px 15px 0px;
+  max-width: 325px;
+  min-width: 23.5%;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 6px #2bb5fe);
+}
+
+.card-header {
+  background-size: 100% 225px;
+  background-repeat: no-repeat;
+  color: white;
+  height: 165px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+/*Card background images*/
+.card1 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup1.jpg");
+}
+
+.card2 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup2.jpeg");
+}
+
+.card3 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup3.jpeg");
+}
+
+.card4 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup4.jpeg");
+}
+
+.card5 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup5.jpg");
+}
+
+.card6 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup6.jpeg");
+}
+
+.card7 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup7.jpeg");
+}
+
+.card8 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup8.jpeg");
+}
+
+.card9 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/pup9.jpeg");
+}
+
+
+/*Top half of each card*/
+.share-icon {
+  display: inline-block;
+  font-size: 30px;
+  margin: 15px;
+  padding: 20px;
+  background-color: white;
+  color: #333333;
+  border-radius: 100%;
+}
+
+.share-icon:hover {
+  background-color: #2bb5fe;
+}
+
+.views {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  top: 20px;
+}
+
+.view-header {
+  color: white;
+  text-align: center;
+}
+
+.views p {
+  margin: 0px 0px 5px 0px;
+  text-align: center;
+}
+
+.view-count {
+  font-size: 36px;
+}
+
+
+/*Bottom half of each card with details*/
+.card-info {
+  padding: 15px 20px;
+}
+
+.time-date {
+  color: grey;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.playlist-name {
+  color: #444444;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 5px 0px 18px 0px;
+}
+.link-container {
+  background-color: #ededed;
+  margin: 20px 0px;
+  padding: 3px 20px 3px 10px;
+}
+
+.link-txt {
+  color: grey;
+  font-size: 13px;
+  font-weight: 400;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+.attach-count {
+  color: #2bb5fe;
+  font-size: 36px;
+  margin: 0px;
+}
+
+
+/*Responsive behavior*/
+
+@media screen and (max-width: 680px) {
+
+  header {
+    height: 65px;
+    padding: 0px 25px;
+  }
+
+  main {
+    padding: 65px 0px 20px 0px;
+}
+
+  section {
+    padding: 0px;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    margin: 0;
+  }
+
+  i.fa-bars, i.fa-cog {
+    flex: 1;
+    color: white;
+    display: block;
+    font-size: 28px;
+    padding-top: 18px;
+  }
+
+  i.fa-bars:hover, i.fa-cog:hover {
+    color: #2bb5fe;
+  }
+
+  i.fa-bars {
+  }
+
+  i.fa-cog {
+    text-align: right;
+  }
+
+  .card {
+    display: block;
+    margin-bottom: 40px;
+    margin: 10px auto;
+    max-width: 85%;
+    min-width: 60%;
+  }
+
+  .profile-container {
+    height: 0px;
+    display: none;
+  }
+
+  .logo-container {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .logo-container img {
+    height: 28px;
+    padding-top: 15px;
+    padding-left: 12px;
+    width: 100px;
+  }
+
+  nav {
+    display: flex;
+    padding: 0px;
+    position: relative;
+  }
+
+  ul {
+    align-items: flex-start;
+    background-color: black;
+    flex-direction: column;
+    height: 175px;
+    width: 680px;
+    left: -25px;
+    padding-top: 20px;
+    padding-right: 200px;
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+  }
+
+  ul.expanded {
+    display: none;
+  }
+
+  li a {
+    font-size: 22px;
+    padding: 2px 0px 30px 30px;
+  }
+}
