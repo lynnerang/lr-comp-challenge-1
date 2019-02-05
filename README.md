@@ -18,7 +18,7 @@
 
 Static Comp #1 was a project I was assigned as a Mod 1 student at Turing.  We were given a flat mock with limited styling details (e.g. a few color hex codes) to reproduce from scratch in code.  This was primarily working with HTML and CSS, and we also had a chance to experiment with CSS media queries for making the design responsive and a touch of JavaScript to get the mobile version of global navigation to open and close when clicking the hamburger menu.  Here's the comp we were given:
 
-<img src="http://frontend.turing.io/assets/images/static-comp-challenge-2.jpg">
+<img src="http://frontend.turing.io/assets/images/static-comp-challenge-2.jpg" alt="Original mock we worked from">
 
 
 ## Built With
@@ -30,10 +30,10 @@ Static Comp #1 was a project I was assigned as a Mod 1 student at Turing.  We we
 
 ## Screenshots
 
-<img align="middle" src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Desktop1.png" alt="Top of website on desktop">
-<img align="middle" src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Desktop2.png" alt="Bottom of website on desktop">
-<img align="middle" src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Mobile1.png" alt="Top of website on mobile">
-<img align="middle" src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Mobile2.png" alt="Bottom of website on mobile">
+<img src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/Screenshots/Desktop1.png" alt="Top of website on desktop">
+<img src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Desktop2.png" alt="Bottom of website on desktop">
+<img src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Mobile1.png" alt="Top of website on mobile">
+<img src="https://github.com/lynnerang/lr-comp-challenge-1/blob/master/screenshots/Mobile2.png" alt="Bottom of website on mobile">
 
 
 ## Features
